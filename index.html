@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P Prajith | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f4f4f6;
+  color: #1a1a1a;
+  line-height: 1.6;
+  padding-bottom: 4rem;
+}
+
+
+header {
+  text-align: center;
+  padding: 5rem 1rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e4e4e7;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  color: #111;
+}
+
+header p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+header a {
+  color: #0066cc;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+
+section {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e4e4e7;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+}
+
+h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 1.2rem;
+  border-left: 4px solid #0066cc;
+  padding-left: 10px;
+}
+
+.skills, .projects {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.card {
+  flex: 1 1 calc(33% - 1.5rem);
+  background: #fafafa;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 1.2rem;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+  color: #222;
+}
+
+.card p {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 0.7rem 0;
+  font-size: 1rem;
+  border-bottom: 1px solid #e4e4e7;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+ul li::before {
+  content: "▹";
+  color: #0066cc;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  color: #555;
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>P Prajith</h1>
+  <p>Email: <a href="mailto:122411510253@apollouniversity.edu.in">122411510253@apollouniversity.edu.in</a> |
+     GitHub: <a href="https://github.com/Prajith200707" target="_blank">Prajith200707</a> |
+     Phone: +91 9032224709</p>
+</header>
+
+<section>
+  <h2>Education</h2>
+  <p><strong>The Apollo University</strong> — B.Tech, Computer Science & Engineering (Ongoing)</p>
+  <p><strong>Year/Semester:</strong> 2nd Year / 4th Semester</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+
+  <h3>Programming Languages</h3>
+  <div class="skills">
+    <div class="card">C</div>
+    <div class="card">Python</div>
+    <div class="card">HTML</div>
+  </div>
+
+  <h3 style="margin-top:2rem;">Tools & IDEs</h3>
+  <div class="skills">
+    <div class="card">VS Code</div>
+    <div class="card">PyCharm</div>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Tic-Tac-Toe (Python)</h3>
+      <p>Two-player CLI game built in Python.</p>
+    </div>
+
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Simple personal webpage using HTML & CSS.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Strengths</h2>
+  <ul>
+    <li>Quick learner and problem solver</li>
+    <li>Good understanding of programming basics</li>
+    <li>Passionate about coding and improving skills</li>
+  </ul>
+</section>
+
+<footer>
+  © 2025 P Prajith — All Rights Reserved
+</footer>
+
+</body>
+</html>
