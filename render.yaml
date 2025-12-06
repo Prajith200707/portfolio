@@ -1,7 +1,6 @@
 services:
-  - type: static
-    name: portfolio
-    env: static
+  - name: my-portfolio
+    type: web
+    runtime: static
     buildCommand: ""
     staticPublishPath: .
-
